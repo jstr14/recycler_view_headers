@@ -86,7 +86,7 @@ public class RecyclerSectionItemDecoration extends RecyclerView.ItemDecoration {
 
     private View inflateHeaderView(RecyclerView parent) {
         return LayoutInflater.from(parent.getContext())
-                             .inflate(R.layout.recycler_section_header,
+                             .inflate(R.layout.new_header_layout,
                                       parent,
                                       false);
     }
